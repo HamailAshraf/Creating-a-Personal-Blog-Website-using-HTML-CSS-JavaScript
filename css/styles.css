@@ -56,7 +56,8 @@
      */
   
     /** Font family */
-    --fontFamily-noto_sans: 'Merriweather', serif;
+    --fontFamily-monts_sans: 'Montserrat', sans-serif;
+    --fontFamily-popin_sans: 'Poppins', sans-serif;;
   
     /** Font size */
     --fontSize-1: 2.9rem;
@@ -173,7 +174,7 @@
   body {
     background-color: var(--bg-oxford-blue-2);
     color: var(--text-shadow-blue);
-    font-family: var(--fontFamily-noto_sans);
+    font-family: var(--fontFamily-monts_sans);
     font-size: 1.6rem;
     line-height: var(--lineHeight-4);
     overflow-y: overlay;
@@ -519,11 +520,13 @@
 
 .hero .hero-content h2{
   color: #fff;
+  font-family: var(--fontFamily-popin_sans);
   text-transform: uppercase;
   font-size: 2em;
   line-height: 1em;
   margin: 25px 0px;
 }
+
 .hero .hero-content p{
   margin: 20px 0px;
   color: #fff;
